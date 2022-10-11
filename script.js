@@ -40,3 +40,13 @@ let x = 5;
 let y = 6;
 console.log(multiplicacion(x, y));
 //#endregion multiplicacion
+
+//#region division
+function division(r, a) {
+    let h = r / a;
+    return h;
+}
+let r = 90;
+let a = 30;
+console.log(division(r, a));
+//#endregion division
