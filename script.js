@@ -20,3 +20,13 @@ let num1 = 20;
 let num2 = 20;
 console.log(suma(num1, num2));
 //#endregion suma
+
+//#region resta
+function resta(numero1, numero2) {
+    let y = numero1 - numero2;
+    return y;
+}
+let numero1 = 60;
+let numero2 = 30;
+console.log(resta(numero1, numero2));
+//#endregion resta
