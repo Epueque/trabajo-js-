@@ -30,3 +30,13 @@ let numero1 = 60;
 let numero2 = 30;
 console.log(resta(numero1, numero2));
 //#endregion resta
+
+//#region multiplicacion
+function multiplicacion(x, y) {
+    let t = x * y;
+    return t;
+}
+let x = 5;
+let y = 6;
+console.log(multiplicacion(x, y));
+//#endregion multiplicacion
