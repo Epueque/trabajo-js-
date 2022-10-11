@@ -50,3 +50,8 @@ let r = 90;
 let a = 30;
 console.log(division(r, a));
 //#endregion division
+
+let array1 = [10, 20, 30];
+for (i = 0; i < array1.length; i++) {
+    console.log(array1[i]);
+}
